@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .exchange-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Trading Pair Selector */
+  .trading-pair-selector {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Chart and Content Layout */
+  .exchange-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .order-book, .recent-trades, .trade-execution, .user-balance {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #444;
+  }
+  
+  /* Order Book */
+  .order-book h3 {
+    color: #444;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Recent Trades */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+  }
+  
+  thead {
+    background-color: #f4f4f9;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Trade Execution Form */
+  .trade-execution form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  input[type="number"], select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* User Balance */
+  .user-balance {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }  
