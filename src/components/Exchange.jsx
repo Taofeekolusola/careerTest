@@ -51,6 +51,9 @@ const Exchange = () => {
         <select onChange={(e) => setTradingPair(e.target.value)}>
           <option value="bitcoin">BTC/USD</option>
           <option value="ethereum">ETH/USD</option>
+          <option value="bnb">BNB/USD</option>
+          <option value="xrp">XRP/USD</option>
+          <option value="solana">SOL/USD</option>
           {/* Add more pairs */}
         </select>
       </div>
