@@ -1,0 +1,67 @@
+/* Container for the markets section */
+.market-table-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  /* Table Styles */
+  .market-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .market-table th,
+  .market-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  .market-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .market-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .market-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .market-table td {
+    font-size: 14px;
+  }
+  
+  .market-table td a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .market-table td a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Loading state */
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
